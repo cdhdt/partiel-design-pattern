@@ -16,7 +16,7 @@
     "prettier": "^3.9.5"
   },
   "scripts": {
-    "dev": "tsx src/index.ts",
+    "app": "tsx src/index.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint": "eslint .",

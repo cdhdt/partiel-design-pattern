@@ -5,13 +5,13 @@ App en TS pour impressions de doc officiels (CNI, Passeport, Carte Vitale) avec 
 ## Installation
 
 ```bash
-bun install
+bun install | npm install
 ```
 
 ## Lancement
 
 ```bash
-bun run src/index.ts
+bun app | npm run app
 ```
 
 ## Design patterns utilisés
