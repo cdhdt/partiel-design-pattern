@@ -1,11 +1,11 @@
-import {type Personne, TypeDocument} from "./types.ts";
-import DocumentFactory from "./DocumentFactory.ts";
+import { type Personne, TypeDocument } from "./types";
+import DocumentFactory from "./DocumentFactory";
 
 const personne: Personne = {
-    nom: "DHDT",
-    prenom: "CLEM",
-    dateNaissance: "2000-01-01",
-    numeroIdentifiant: "123456789",
+  nom: "DHDT",
+  prenom: "CLEM",
+  dateNaissance: "2000-01-01",
+  numeroIdentifiant: "123456789",
 };
 
 const factory = new DocumentFactory();

@@ -1,6 +1,5 @@
 import type IDocumentImprimable from "./IDocumentImprimable";
 
-
 export default abstract class DocumentAImprimer {
   constructor(protected readonly systeme: IDocumentImprimable) {}
 

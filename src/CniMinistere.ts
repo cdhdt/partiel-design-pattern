@@ -1,6 +1,6 @@
 import type IDocumentImprimable from "./IDocumentImprimable";
 import type { Personne } from "./types";
-import Imprimante from "./Imprimante";
+import type Imprimante from "./Imprimante";
 
 export default class CniMinistere implements IDocumentImprimable {
   constructor(
@@ -9,7 +9,9 @@ export default class CniMinistere implements IDocumentImprimable {
   ) {}
 
   recupererInformations(): void {
-    console.log(`[CNI] Récupération des informations de ${this.personne.prenom} ${this.personne.nom}...`);
+    console.log(
+      `[CNI] Récupération des informations de ${this.personne.prenom} ${this.personne.nom}...`,
+    );
   }
 
   preparerEncres(): void {

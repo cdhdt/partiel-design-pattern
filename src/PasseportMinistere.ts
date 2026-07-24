@@ -1,6 +1,6 @@
 import type IDocumentImprimable from "./IDocumentImprimable";
 import type { Personne } from "./types";
-import Imprimante from "./Imprimante";
+import type Imprimante from "./Imprimante";
 
 export default class PasseportMinistere implements IDocumentImprimable {
   constructor(
