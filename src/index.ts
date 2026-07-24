@@ -11,3 +11,5 @@ const personne: Personne = {
 const factory = new DocumentFactory();
 
 factory.creerDocument(TypeDocument.CNI, personne).lancerImpression();
+factory.creerDocument(TypeDocument.CARTE_VITALE, personne).lancerImpression();
+factory.creerDocument(TypeDocument.PASSEPORT, personne).lancerImpression();
