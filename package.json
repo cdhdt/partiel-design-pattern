@@ -1,10 +1,27 @@
 {
   "name": "partiel-design-pattern",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^20.17.10",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.64.0"
+  },
+  "dependencies": {
+    "prettier": "^3.9.5"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "qa": "npm run format:check && npm run lint"
   },
   "peerDependencies": {
     "typescript": "^5"
